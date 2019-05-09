@@ -1,7 +1,8 @@
-# 2019年度最佳书单：深度学习+机器学习+强化学习
+2019年度最佳书单：深度学习+机器学习+强化学习
 
 TOP 1：Deep Learning：已买
 深度学习大神Ian Goodfellow, Yoshua Bengio, Aaron Courville合著的经典著作，花书的大名也是家喻户晓了，这本书被誉为深度学习圣经。所以最好的方式是每天都去翻一翻，可能就会有不一样的体会
+
 TOP 2：Grokking Deep Learning：
 作者Andrew Trask是OpenMind的leader。这本书最大的特点就是号称高中生也能看懂的深度学习教材。在本书中，Andrew试图绕开数学公式，来科普什么是深度学习，以及如何创建一个神经网络
 在线阅读地址：
@@ -38,24 +39,30 @@ Part II: Unsupervised and Other Forms of Learning
 Chapter 9: Unsupervised Learning
 Chapter 10: Other Forms of Learning
 Chapter 11: Conclusion
+
 TOP 6：Reinforcement Learning: An Introduction (2nd Edition)
 由大神Richard S. Sutton, Andrew G. Barto合著的强化学习教材，可以被认为是强化学习领域的圣经了，它的影响力和权威性毋庸置疑。当然其深度也是非常感人的，同样建议时不时的翻翻。
 地址：https://blog.csdn.net/yuanyinshen/article/details/81904842
+
 TOP 7：Deep Reinforcement Learning Hands-On
 本书介绍了RL的基础知识，为你提供编码智能学习智能体的专业知识，以承担一系列艰巨的实际任务。了解如何在“网格世界”环境中实施Q-learning，教你的智能体商购买和交易股票，并了解自然语言模型如何推动聊天机器人的繁荣。
 地址：
 https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On
+
 TOP 8：Learning From Data
 本书作者是一位华人，是为机器学习的短期课程而设计的。这是一个短期课程，作者是加州理工学院，伦斯勒理工学院（RPI）和国立台湾大学（NTU）的教授。作者还就金融和商业公司的机器学习应用进行了广泛的咨询，并在机器学习竞赛中领导了获奖团队。
 记录Learning from data一书中的习题解答
 地址：https://github.com/Doraemonzzz/Learning-from-data
+
 TOP 9：The Book of Why
 这本书就是一本充满了为什么的书，可以激发你的想象力。总之就很神奇，推荐一读。
 作者Judea Pearl（贝叶斯网络的奠基人）是加州大学洛杉矶分校的计算机科学教授，2011年图灵奖得主，同时也是三本关于因果关系的经典技术书籍的作者。他住在加州洛杉矶。达娜·麦肯齐是一位获奖的科学作家，《大喷溅》的作者，《我们的月球是如何形成的》。他住在加州圣克鲁斯。
 地址：E:\机器学习\ML与DL电子书籍\The Book of Why
+
 TOP 10：Machine Learning Yearning
 这本书是吴恩达在百度和谷歌大脑领导深度学习团队时获得的多年实践经验的总结，很难得有人有机会接触到这些大厂的核心资源，更难得能将这么多年的经验写出来。本书绝对值得一读！
 地址：https://github.com/xiaqunfeng/machine-learning-yearning
+
 TOP 11：Interpretable Machine Learning
 可解释性正迅速成为深度学习中需要解决的热门话题。如何获知黑盒子内容仍然是深度学习的活跃研究领域，本书带你了解可解释性机器学习。
 地址：https://github.com/lopusz/awesome-interpretable-machine-learning
