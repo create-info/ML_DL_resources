@@ -6,5 +6,7 @@
 - [ml_dl_books.doc](https://github.com/create-info/ML_DL_resources/blob/master/ml_dl_books.doc)
 # 机器学习、深度学习课程
 - [ml_dl_course.doc](https://github.com/create-info/ML_DL_resources/blob/master/ml_dl_course.doc)
+# 机器学习、深度学习数据集
+- [ml_dl_dataset.doc](https://github.com/create-info/ML_DL_resources/blob/master/ml_dl_dataset.doc)
 # 机器学习、深度学习学习路径
 - [ml_dl_path.doc](https://github.com/create-info/ML_DL_resources/blob/master/ml_dl_path.doc)
