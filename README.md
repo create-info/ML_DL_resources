@@ -10,3 +10,7 @@
 - [ml_dl_datasets.doc](https://github.com/create-info/ML_DL_resources/blob/master/ml_dl_datasets.doc)
 # 机器学习、深度学习学习路径
 - [ml_dl_path.doc](https://github.com/create-info/ML_DL_resources/blob/master/ml_dl_path.doc)
+# 机器学习、深度学习相关工具和类库
+- [pands官方文档](http://pandas.pydata.org/)
+- [matplotlib官方文档](https://matplotlib.org/)
+- [python官方文档](https://docs.python.org/3.7/library/index.html)
