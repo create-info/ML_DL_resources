@@ -16,3 +16,4 @@
 - [pands官方文档](http://pandas.pydata.org/)
 - [matplotlib官方文档](https://matplotlib.org/)
 - [python官方文档](https://docs.python.org/3.7/library/index.html)
+- [scikit-learn官方文档](https://scikit-learn.org/stable/modules/classes.html)
