@@ -17,4 +17,4 @@
 - [matplotlib官方文档](https://matplotlib.org/)
 - [python官方文档](https://docs.python.org/3.7/library/index.html)
 - [scikit-learn官方文档](https://scikit-learn.org/stable/modules/classes.html)
-- [xgboost](https://xgboost.readthedocs.io/en/latest/)
+- [xgboost安装文档](https://xgboost.readthedocs.io/en/latest/)    [xgboost github](https://github.com/dmlc/xgboost)
