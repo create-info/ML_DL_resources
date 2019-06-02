@@ -19,7 +19,7 @@
 - [scikit-learn官方文档](https://scikit-learn.org/stable/modules/classes.html)
 - [xgboost安装文档](https://xgboost.readthedocs.io/en/latest/)    [xgboost github](https://github.com/dmlc/xgboost)
 ## 正则化技术
-- [L1-Norm]  
+- [L1-Norm]＜/br＞
 - [L2-Norm]  
 - [Dropout]  
 - [Max-Norm Regularization]
