@@ -31,6 +31,6 @@
 特征的可用性评估,即哪些特征对我们模型有用,与业务高度相关,需要对业务有很深的理解;特征的覆盖率,准确率等。  
 2、特征处理  
 主要数据清洗（清洗异常样本，噪声数据；采样：数据不均衡，样本权重）和预处理（单个特征、是否需要归一化，离散化；多个特征（是否需要组合特征，降维、特征选择等）；衍生变量（对原始数据加工、生成有商业意义的变量）。  
-- [特征抽取和预处理]（https://github.com/create-info/ML_DL_resources/blob/master/feature_extraction_preprocessing.ipynb）
+- [特征抽取和预处理](https://github.com/create-info/ML_DL_resources/blob/master/feature_extraction_preprocessing.ipynb)  
 3、特征监控  
 特征有效性分析：特征的重要性，权重；特征监控：监控重要特征，防止特征质量下降，影响模型效果。
