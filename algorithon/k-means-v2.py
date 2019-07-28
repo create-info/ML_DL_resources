@@ -74,7 +74,7 @@ def knncls():
   # y_predict = knn.predict(x_test)
   # print("预测目标的签到位置为;", y_predict)
   
-  # #得出准确率
+  # 得出准确率
   # print("预测的准确率：", knn.score(x_test,y_test))
   
   # 进行网格搜索
