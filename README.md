@@ -34,3 +34,6 @@
   [特征抽取和预处理](https://github.com/create-info/ML_DL_resources/blob/master/feature_extraction_preprocessing.ipynb)  
 - [3、特征监控]  
 特征有效性分析：特征的重要性，权重；特征监控：监控重要特征，防止特征质量下降，影响模型效果。
+## 模型选择与验证
+- [1、交叉验证] 
+- [2、网格搜索] 
