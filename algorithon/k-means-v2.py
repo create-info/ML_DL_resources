@@ -80,7 +80,6 @@ def knncls():
   # 进行网格搜索
   #构造参数的值
   param = {"n_neighbors": [3,5,10]}
-  param = {"n_neighbors": [3,5,10]}
   # 每个n_neighbors的值都进行10折交叉验证
   gsc = GridSearchCV(knn,param_grid=param, cv=10)
   gsc.fit(x_train,y_train)
