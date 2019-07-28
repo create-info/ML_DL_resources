@@ -36,6 +36,14 @@
 特征有效性分析：特征的重要性，权重；特征监控：监控重要特征，防止特征质量下降，影响模型效果。
 ## 模型选择与验证
 - 交叉验证  
-将训练数据分成训练集以及验证集，然后取平均值作为最终的结果。
+将训练数据分成训练集以及验证集，然后取平均值作为最终的结果。  
 - 网格搜索  
 给定超参数的不同取值,依次对模型进行交叉验证来得到每个参数值下模型的效果。
+## 模型的效果评价
+参考：sklearn.metrics.classification_report(y_test,y_predict,target_names=news.target_names)  
+其中，target_names表示目标类别的名称
+- 混淆矩阵
+- 准确率
+- 召回率
+- F1-Score
+案例：- [使用朴素贝叶斯进行新闻分类](https://github.com/create-info/ML_DL_resources/blob/master/algorithon/NB.ipynb)
