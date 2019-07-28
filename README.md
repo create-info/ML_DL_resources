@@ -38,7 +38,8 @@
 - 交叉验证  
 将训练数据分成训练集以及验证集，然后取平均值作为最终的结果。  
 - 网格搜索  
-给定超参数的不同取值,依次对模型进行交叉验证来得到每个参数值下模型的效果。
+给定超参数的不同取值,依次对模型进行交叉验证来得到每个参数值下模型的效果。  
+案例：[使用k-means预测用户的签到位置](https://github.com/create-info/ML_DL_resources/tree/master/algorithon/kmeans-v2.py)
 ## 模型的效果评价
 参考：sklearn.metrics.classification_report(y_test,y_predict,target_names=news.target_names)  
 其中，target_names表示目标类别的名称
@@ -46,4 +47,4 @@
 - 准确率
 - 召回率
 - F1-Score  
-案例：[使用朴素贝叶斯进行新闻分类](https://github.com/create-info/ML_DL_resources/blob/master/algorithon/NB.ipynb)
+案例：[使用朴素贝叶斯进行新闻分类](https://github.com/create-info/ML_DL_resources/blob/master/algorithon/NB.py)
