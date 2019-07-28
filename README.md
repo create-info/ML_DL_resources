@@ -45,5 +45,5 @@
 - 混淆矩阵
 - 准确率
 - 召回率
-- F1-Score
-案例：- [使用朴素贝叶斯进行新闻分类](https://github.com/create-info/ML_DL_resources/blob/master/algorithon/NB.ipynb)
+- F1-Score  
+案例：[使用朴素贝叶斯进行新闻分类](https://github.com/create-info/ML_DL_resources/blob/master/algorithon/NB.ipynb)
