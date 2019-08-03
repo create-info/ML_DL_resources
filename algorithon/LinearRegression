@@ -39,6 +39,12 @@ def myLinear():
   # print(sgd.coef_)
   print(rig.coef_)
   
+  # 保存与加载模型,pkl文件是一个二进制文件
+  # joblib.dump(rig,"./test.pkl")
+  # model = joblib.load("./test.pkl")
+  # y_predict = std_y.inverse_transform(model.predict(x_test))
+  
+  
   #预测房子价格(得到标准化之前的结果)
   # y_predict = std_y.inverse_transform(lr.predict(x_test))
   # y_predict = std_y.inverse_transform(sgd.predict(x_test))
