@@ -20,6 +20,7 @@
 - [python官方文档](https://docs.python.org/3.7/library/index.html)
 - [scikit-learn官方文档](https://scikit-learn.org/stable/modules/classes.html)
 - [xgboost安装文档](https://xgboost.readthedocs.io/en/latest/)    [xgboost github](https://github.com/dmlc/xgboost)
+- [tensorflow官方文档](https://tensorflow.google.cn/versions)
 ## 正则化技术
 - [L1-Norm]
 - [L2-Norm]  
