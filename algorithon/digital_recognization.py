@@ -2,7 +2,11 @@ from tensorflow.examples.tutorials.mnist import input_data
 import tensorflow as tf
 import os
 
-
+# 定义命令行参数
+FLAGS = tf.app.flags.FLAGS
+# tf.app.flags.DEFINE_integer("is_train",1,"指定程序开始训练或者预测")
+tf.app.flags.DEFINE_integer("is_train",0,"指定程序开始训练或者预测")
+tf.app.flags.DEFINE_string("f", "", "kernel")
 # 单个全连接神经网络
 def dist_recognization():
   # # 获取真实的数据
@@ -51,6 +55,9 @@ def dist_recognization():
   # 定义一个合并变量
   meraged = tf.summary.merge_all()
 
+  # 创建saver用于保存模型
+  saver = tf.train.Saver()
+
   # 开启会话，运行结果
   with tf.Session() as sess:
     # 初始化变量
@@ -59,22 +66,35 @@ def dist_recognization():
     # 建立events文件，然后写入
     filewriter = tf.summary.FileWriter("./test/",graph=sess.graph)
 
+    if FLAGS.is_train == 1:
+      # 迭代步数去训练，更新参数预测
+      for i in range(2000):
+        # 取出特征值和目标值
+        minst_x, minst_y = mnist.train.next_batch(50)
+        # 运行train_op,开始训练
+        sess.run(train_op, feed_dict={x: minst_x, y_true: minst_y}) 
 
-    # 迭代步数去训练，更新参数预测
-    for i in range(2000):
-      # 取出特征值和目标值
-      minst_x, minst_y = mnist.train.next_batch(50)
-      # 运行train_op,开始训练
-      sess.run(train_op, feed_dict={x: minst_x, y_true: minst_y}) 
+        # 写入每步训练的值
+        summary = sess.run(meraged, feed_dict={x: minst_x, y_true: minst_y})
+        filewriter.add_summary(summary, i)
 
-      # 写入每步训练的值
-      summary = sess.run(meraged, feed_dict={x: minst_x, y_true: minst_y})
-      filewriter.add_summary(summary, i)
+        print("训练第%d步，准确率为：%f" % (i,sess.run(accuracy, feed_dict={x: minst_x, y_true: minst_y})))
 
-      print("训练第%d步，准确率为：%f" % (i,sess.run(accuracy, feed_dict={x: minst_x, y_true: minst_y})))
-
+      # 保存模型
+      saver.save(sess, "./ckpt/model")
+    else:
+      # 加载模型
+      saver.restore(sess, "./ckpt/model")
+      # 输入0则预测
+      for i in range(100):
+        # 每次测试一张图片
+        x_test, y_test = mnist.test.next_batch(1)
+        print("第%d张图片的数字是%d,预测结果是%d" %(
+            i, 
+            tf.argmax(y_test,1).eval(), 
+            tf.argmax(sess.run(y_predict, feed_dict={x: x_test, y_true: y_test}),1).eval()                       
+           ))   # tf.argmax(),axis=1的时候，将每一行最大元素所在的索引记录下来
   return None
-
 
 if __name__ == "__main__":
   dist_recognization()  #手写数字识别
