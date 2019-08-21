@@ -5,6 +5,9 @@ import os
 
 # 单个全连接神经网络
 def dist_recognization():
+  # # 获取真实的数据
+  mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
+
   # 1、准备数据，定义数字占位符：特征值[None,784],目标值[None,10]
   with tf.variable_scope("data"):
     x = tf.placeholder(tf.float32,[None,784])
@@ -60,7 +63,7 @@ def dist_recognization():
     # 迭代步数去训练，更新参数预测
     for i in range(2000):
       # 取出特征值和目标值
-      minst_x, minst_y = minst.train.next_batch(50)
+      minst_x, minst_y = mnist.train.next_batch(50)
       # 运行train_op,开始训练
       sess.run(train_op, feed_dict={x: minst_x, y_true: minst_y}) 
 
@@ -75,18 +78,3 @@ def dist_recognization():
 
 if __name__ == "__main__":
   dist_recognization()  #手写数字识别
- 
- 
-
-
-
-
- 
-
-
-
-
-
-
-
-
