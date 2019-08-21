@@ -50,6 +50,6 @@
 - F1-Score  
 案例：[使用朴素贝叶斯进行新闻分类](https://github.com/create-info/ML_DL_resources/blob/master/algorithon/NB.py)
 ## 深度学习编译器
-Intel nGraph(https://github.com/NervanaSystems/ngraph)，即一个用于在跨框架和硬件平台间简化深度学习的性能优化过程的开源 C++库。  
-论文地址：https://arxiv.org/abs/1801.08058
+[Intel nGraph](https://github.com/NervanaSystems/ngraph)，即一个用于在跨框架和硬件平台间简化深度学习的性能优化过程的开源 C++库。  
+[论文地址](https://arxiv.org/abs/1801.08058)
 
