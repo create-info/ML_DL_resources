@@ -24,6 +24,7 @@
 - [fastText](https://github.com/facebookresearch/fastText)
 - [tencent angel](https://github.com/Angel-ML/angel)
 - [Uber Horovod](https://github.com/horovod/horovod)
+- [AutoKeras](https://github.com/keras-team/autokeras)
 ## 正则化技术
 - [L1-Norm]
 - [L2-Norm]  
