@@ -23,6 +23,7 @@
 - [tensorflow官方文档](https://tensorflow.google.cn/versions)
 - [fastText](https://fasttext.cc/)
 - [tencent angel](https://github.com/Angel-ML/angel)
+- [Uber Horovod](https://github.com/horovod/horovod)
 ## 正则化技术
 - [L1-Norm]
 - [L2-Norm]  
