@@ -22,6 +22,7 @@
 - [xgboost安装文档](https://xgboost.readthedocs.io/en/latest/)    [xgboost github](https://github.com/dmlc/xgboost)
 - [tensorflow官方文档](https://tensorflow.google.cn/versions)
 - [fastText](https://fasttext.cc/)
+- [tencent angel](https://github.com/Angel-ML/angel)
 ## 正则化技术
 - [L1-Norm]
 - [L2-Norm]  
