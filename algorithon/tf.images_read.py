@@ -2,7 +2,7 @@ import tensorflow as tf
 import os
 
 def image_read(filelist):
-  # 读取狗的读取并转成张量
+  # 读取并转成张量
   # 1、构造文件队列
   file_queue = tf.train.string_input_producer(filelist)
   
